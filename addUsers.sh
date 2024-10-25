@@ -18,7 +18,7 @@ for user in $users
 do 
     # vérification de l'existence d'un utilisateur situé entre début de ligne
     # ... et terminant par ":" à l'image de la structure du dossier passwd
-    if cat /etc/passwd | grep "^$user:"; then
+    if cat /etc/passwd | grep -q "^$user:"; then
         echo "L'utilisateur $user existe déjà"
 
     else 
