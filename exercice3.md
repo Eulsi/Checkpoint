@@ -14,8 +14,11 @@
    * git merge test_valide
    * si nécessaire push à nouveau le main vers le repo
 > correction : Se placer dans la branche main
+> 
 > git checkout main
+> 
 > fusionner la branche test_valide dans main
+> 
 > git merge test_valide
 
 
