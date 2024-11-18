@@ -22,7 +22,7 @@
 > git merge test_valide
 
 
-5. echo -e "Malgré le prix élevé de 100\$, il a dit \"Bonjour !\" au vendeur :\n- \"Bonjour est-ce que ce clavier fonctionne bien ?\"\n- \"Evidemment ! On peut tout écrire avec, que ce soit des pipe | ou bien des backslash \\\\\ !\"\n- \"Même des tildes ~ ?\"\n- \"Evidemment !\""
+5. ```echo -e "Malgré le prix élevé de 100\$, il a dit \"Bonjour !\" au vendeur :\n- \"Bonjour est-ce que ce clavier fonctionne bien ?\"\n- \"Evidemment ! On peut tout écrire avec, que ce soit des pipe | ou bien des backslash \\\\\ !\"\n- \"Même des tildes ~ ?\"\n- \"Evidemment !\""```
 
 
 6. fg %1 va placer le processus [1] à l'avant-plan
